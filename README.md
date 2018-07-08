@@ -28,6 +28,14 @@ The resulting binary is named `ibm_pw_clear.efi`
 This can be disabled with a switch on the motherboard.
 **Setup Password**
 This one is harder, because you can't change boot options unless you know the setup password. If you're lucky, USB UEFI boot might already be enabled. If it isn't, you can try resetting the CMOS settings. PXE boot is enabled in the default settings, and it's relatively simple to PXE boot an EFI binary (either a shell or this tool).
+* **Will this work on a non-IBM server?**
+No, this uses IBM-specific UEFI hooks to reset the passwords.
+* **Will this work on other IBM server models?**
+I don't know. It definitely won't work on older servers that don't use UEFI. It might work on other M3-series servers, but I can only be sure it works on the x3550 and x3650 models because they share the same motherboard. It's possible that it could work on newer IBM/Lenovo servers, but they also could have changed or removed the UEFI hook that this tool relies on.
+
+## Disclaimer
+
+Use at your own risk, and don't use this tool without permission on any servers you don't own.
 
 ## License
 
