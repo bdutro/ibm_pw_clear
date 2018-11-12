@@ -49,3 +49,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Pedro Vilaça's [EFISwissKnife IDA plugin](https://github.com/gdbinit/EFISwissKnife) and [blog post](https://reverse.put.as/2016/06/25/apple-efi-firmware-passwords-and-the-scbo-myth/) on Apple EFI reverse engineering were both enormously helpful
 * Jethro Beekman's [blog post](https://jbeekman.nl/blog/2015/03/reverse-engineering-uefi-firmware/) on UEFI reverse engineering
 
+## Donations
+
+This tool is made available for absolutely no charge, but if it helps you out and you want to send a couple of bucks my way, feel free to use the donation button.
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AAY5Q8QSLN9RL&source=url)
