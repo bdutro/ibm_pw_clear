@@ -35,6 +35,9 @@ No, this uses IBM-specific UEFI hooks to reset the passwords.
 * **Will this work on other IBM server models?**  
 I don't know. It definitely won't work on older servers that don't use UEFI. It might work on other M3-series servers, but I can only be sure it works on the x3550 and x3650 models because they share the same motherboard. It's possible that it could work on newer IBM/Lenovo servers, but they also could have changed or removed the UEFI hook that this tool relies on.
 
+**Update**
+This has been reported to work on x3650 M4 servers, so it will probably work on x3550 M4 servers as well.
+
 ## Disclaimer
 
 Use at your own risk, and don't use this tool without permission on any servers you don't own.
