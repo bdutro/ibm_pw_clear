@@ -1,4 +1,4 @@
-# IBM x3550/x3560 M3 Password Clear Tool
+# IBM x3550/x3650 M3 Password Clear Tool
 
 Small EFI utility that clears the power-on and setup passwords in IBM x3550/x3650 M3 servers
 
